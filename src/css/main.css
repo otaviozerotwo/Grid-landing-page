@@ -12,6 +12,20 @@ body {
   background-color: var(--color-blue-600);
   color: var(--color-white);
   font-size: 17px;
+  /* overflow: hidden; TODO - apenas quando o menu estive aberto */
+
+  /* &::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-color: var(--color-black);
+    opacity: 0.25;
+    z-index: 2;
+  } */
+}
+
+.container {
+  z-index: 1;
 }
 
 @media (min-width: 48rem) {

@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 4px;
   padding: 1.5rem 2rem;
+  z-index: 1;
 
   p {
     font-size: 0.875rem;
