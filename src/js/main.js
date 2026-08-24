@@ -1,3 +1,9 @@
-const headerMenu = document.getElementById('headerMenu');
+import toggleMenu from './utils';
 
-console.log(headerMenu);
+const headerMenu = document.getElementById('headerMenu');
+const menuButton = document.getElementById('headerButton');
+const menuButtonIcon = document.getElementById('iconButtonMenu');
+
+menuButton.addEventListener('click', () => {
+  toggleMenu(headerMenu, menuButtonIcon, menuButton);
+});
