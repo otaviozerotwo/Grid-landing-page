@@ -7,4 +7,7 @@
   --color-black: hsl(0, 0%, 0%);
   --color-stat-hover: hsla(220, 100%, 64%, 0.251);
   --color-overlay: hsla(0, 0%, 0%, 0.145);
+
+  --desktop-hero-column: 50%;
+  --desktop-stat-column: calc((100% - var(--desktop-hero-column)) / 2);
 }
