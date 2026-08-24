@@ -9,6 +9,11 @@
     min-height: 21.25rem;
     padding: 2rem;
     border-bottom: 2px solid var(--color-blue-400);
+    
+    &:hover {
+      cursor: pointer;
+      background-color: var(--color-stat-hover);
+    }
 
     .stats-title {
       font-size: 1rem;

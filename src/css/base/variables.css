@@ -4,5 +4,7 @@
   --color-blue-400: hsl(220, 100%, 64%);
   --color-blue-600: hsl(228, 100%, 60%);
   --color-blue-700: hsl(228, 99%, 58%);
-  --color-black: hsl(0, 0%, 0%); /*— used at 25% opacity for the menu overlay */
+  --color-black: hsl(0, 0%, 0%);
+  --color-stat-hover: hsla(220, 100%, 64%, 0.251);
+  --color-overlay: hsla(0, 0%, 0%, 0.145);
 }
