@@ -1,0 +1,24 @@
+@import 'base/reset.css';
+@import 'base/variables.css';
+@import 'layout/header.css';
+@import 'layout/hero.css';
+@import 'layout/stats.css';
+@import 'layout/footer.css';
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-blue-600);
+  color: var(--color-white);
+  font-size: 17px;
+}
+
+@media (min-width: 48rem) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 1.5rem 2rem;
+
+  p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 26.5rem) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
